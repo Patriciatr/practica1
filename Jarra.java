@@ -9,7 +9,12 @@ public class	Jarra	{//variables	de	instancia
     }
     this.capacidad=capacidadInicial;
 }
-//		metodos 1 2 3
+public	int	capacidad(){
+ return	this.capacidad;
+}
+public	int	cantidad(){
+ return	this.cantidad;
+}
 public	void	metodoComunitario(){	
     //	Comentario	incluido	para	pruebas	
     System.out.println("Aqui	escribimos	todos");
